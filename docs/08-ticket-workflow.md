@@ -33,4 +33,4 @@ Urgent plan, 4-hour grace period. Due date is the next morning because the SLA c
 
 ## Note
 
-The fix in this ticket was simulated. Once TICKET01 is on the domain, tickets will be worked against real AD accounts.
+The account unlock in this ticket was simulated. The lab covers the ticketing side: intake, routing, SLA, permissions, and resolution.

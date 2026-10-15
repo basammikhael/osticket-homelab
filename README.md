@@ -36,7 +36,7 @@ A self-hosted help desk ticketing system on Windows Server 2022 in Hyper-V.
 8. [Ticket workflow](docs/08-ticket-workflow.md)
 9. [Troubleshooting log](docs/troubleshooting.md)
 
-## Status
+## What was built
 
 - [x] VM built and networked
 - [x] IIS, PHP, MySQL installed and verified
@@ -44,6 +44,8 @@ A self-hosted help desk ticketing system on Windows Server 2022 in Hyper-V.
 - [x] Departments and help topic routing
 - [x] SLA plans, agents, and role permissions
 - [x] First ticket worked end to end
-- [ ] Join TICKET01 to the Active Directory domain
-- [ ] LDAP sign-in with AD accounts
-- [ ] Work tickets against real AD accounts
+
+## Possible extensions
+
+- Join TICKET01 to an Active Directory domain and enable LDAP sign-in
+- Work tickets against real AD accounts
