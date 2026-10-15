@@ -1,5 +1,21 @@
 # Troubleshooting log
 
+## Tier 1 agent couldn't reply to tickets
+
+- **Symptom:** Logged in as `jdoe`, the ticket only showed "Post Internal Note". No "Post Reply" tab.
+- **Cause:** The Limited Access role didn't include the Post Reply or Close permissions.
+- **Fix:** Admin Panel > Agents > Roles > Limited Access > Permissions. Enabled Post Reply and Close. Kept Delete and Edit off.
+
+![Role permissions](../images/25-role-permissions.png)
+
+## Agent email rejected
+
+- **Symptom:** "Valid email is required" on `jdoe@lab.local` when adding an agent.
+- **Cause:** The agent form doesn't accept a `.local` domain.
+- **Fix:** Used `example.com`, a domain reserved for testing.
+
+![Email error](../images/24-agent-email-error.png)
+
 ## HTTP Error 500.19 on first load
 
 - **Symptom:** `http://localhost/osTicket` returned 500.19, code `0x8007000d`, pointing at `web.config`.

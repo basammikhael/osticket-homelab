@@ -23,3 +23,34 @@ Before, everything went to the default Support department:
 After setting the department on each topic's "New ticket options" tab:
 
 ![After routing](../images/20-help-topics-routed.png)
+
+## SLA plans
+
+| Plan | Grace period | Used by |
+|---|---|---|
+| Urgent | 4 hours | Account Lockout (High priority) |
+| Standard | 24 hours | All other topics (Normal priority) |
+
+Only Account Lockout is High. A locked-out user can't work at all.
+
+![Urgent SLA](../images/21-sla-urgent.png)
+
+![Topic priorities](../images/22-help-topics-priority.png)
+
+## Agents
+
+| Agent | Username | Department | Role |
+|---|---|---|---|
+| John Doe | jdoe | Help Desk | Limited Access (tier 1) |
+| Alex Smith | asmith | System Administration | Expanded Access |
+
+- Passwords set directly (no mail server for reset emails).
+- "Require password change at next login" left on.
+
+![Agents](../images/23-agents.png)
+
+## Role permissions
+
+Added Post Reply and Close to Limited Access so tier 1 can answer and resolve tickets. Left Delete, Edit, and Edit Thread off (least privilege).
+
+![Limited Access permissions](../images/25-role-permissions.png)

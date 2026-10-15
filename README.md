@@ -32,8 +32,9 @@ A self-hosted help desk ticketing system on Windows Server 2022 in Hyper-V.
 4. [PHP](docs/04-php.md)
 5. [MySQL](docs/05-mysql.md)
 6. [osTicket install](docs/06-osticket-install.md)
-7. [Help desk configuration](docs/07-configuration.md)
-8. [Troubleshooting log](docs/troubleshooting.md)
+7. [Help desk configuration](docs/07-configuration.md) - departments, routing, SLAs, agents, roles
+8. [Ticket workflow](docs/08-ticket-workflow.md)
+9. [Troubleshooting log](docs/troubleshooting.md)
 
 ## Status
 
@@ -41,7 +42,8 @@ A self-hosted help desk ticketing system on Windows Server 2022 in Hyper-V.
 - [x] IIS, PHP, MySQL installed and verified
 - [x] osTicket installed and locked down
 - [x] Departments and help topic routing
-- [ ] SLA plans and agent roles
+- [x] SLA plans, agents, and role permissions
+- [x] First ticket worked end to end
 - [ ] Join TICKET01 to the Active Directory domain
 - [ ] LDAP sign-in with AD accounts
-- [ ] Work simulated tickets end to end
+- [ ] Work tickets against real AD accounts
